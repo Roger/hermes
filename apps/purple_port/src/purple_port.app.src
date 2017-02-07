@@ -1,0 +1,8 @@
+{application, purple_port, [
+    {description, "Port libpurple binding"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [kernel, stdlib, lager]},
+    {mod, {purple_port_app, []}},
+    {env, []}
+]}.
