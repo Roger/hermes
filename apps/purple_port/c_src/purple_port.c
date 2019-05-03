@@ -339,7 +339,7 @@ prplerl_login(ETERM *data)
 
         g_hash_table_insert(accounts, GINT_TO_POINTER(acc_id), account);
     } else {
-        fprintf(stderr, "Pattern not match {User, Password, Protocol}");
+        fprintf(stderr, "Pattern not match {Id, User, Password, Protocol}");
     }
 
     erl_free_term(id);
